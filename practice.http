@@ -1,0 +1,17 @@
+GET http://localhost:3000/events/practice
+
+
+###
+GET http://localhost:3000/events/practice-more-than
+
+
+###
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+    "name": 111111,
+    "description": "Practice more",
+    "when": "2020-12-12",
+    "address": "1234 Main St"
+}
